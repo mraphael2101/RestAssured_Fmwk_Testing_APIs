@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_01_com.masteringrestassured.api.tests.get._01_Get_Random_UserId_And_Print_Out_Email_Address">
+      <class name="_04_com.masteringrestassured.api.tests.authentication_and_authorization._02_Get_Request__Authorization_Success_200_Response_Code">
         <methods>
-          <include name="getRandomUserIdAndPrintOutEmailAddress"/>
+          <include name="testUserNotExisting"/>
         </methods>
-      </class> <!-- _01_com.masteringrestassured.api.tests.get._01_Get_Random_UserId_And_Print_Out_Email_Address -->
+      </class> <!-- _04_com.masteringrestassured.api.tests.authentication_and_authorization._02_Get_Request__Authorization_Success_200_Response_Code -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
