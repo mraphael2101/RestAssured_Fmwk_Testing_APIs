@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="_04_com.masteringrestassured.api.tests.authentication_and_authorization._02_Get_Request__Authorization_Success_200_Response_Code"/>
+      <class name="_04_com.masteringrestassured.api.tests.authentication_and_authorization._01_Get_Request__Authentication_Failure_401_Response_Code"/>
+      <class name="_01_com.masteringrestassured.api.tests.get._01_Get_Random_UserId_And_Print_Out_Email_Address"/>
+      <class name="_03_com.masteringrestassured.api.tests.serialization_and_deserialization._05_Post_Request_Deserializes_A_Json_Response"/>
+      <class name="_01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class"/>
+      <class name="_01_com.masteringrestassured.api.tests.get._03_Get_Request_Print_Out_Response_Body"/>
+      <class name="_02_com.masteringrestassured.api.tests.post._01_Post_Request_And_Assertion_To_Determine_If_Operation_Successful"/>
+      <class name="_01_com.masteringrestassured.api.tests.get._04_Get_Request_Evaluate_Response_Header"/>
+      <class name="_04_com.masteringrestassured.api.tests.authentication_and_authorization.User"/>
+      <class name="_03_com.masteringrestassured.api.tests.serialization_and_deserialization.RegistrationSuccessResponse"/>
+      <class name="_01_com.masteringrestassured.api.tests.get._07_Get_Request_Check_If_A_String_Is_Contained_In_Response_Body"/>
+      <class name="_01_com.masteringrestassured.api.tests.get._06_Get_Request_Check_If_A_String_Is_Contained_In_Response_Body"/>
+      <class name="_03_com.masteringrestassured.api.tests.serialization_and_deserialization.RegistrationFailureResponse"/>
+      <class name="_01_com.masteringrestassured.api.tests.get._05_Get_Request_Print_All_Headers_Received_In_A_Response"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

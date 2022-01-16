@@ -5,7 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -102,7 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="_02_com.masteringrestassured.api.tests.post._01_Post_Request_And_Assertion_To_Determine_If_Operation_Successful" class="method navigator-link" hash-for-method="postUserIdWithNonEmptyTitleAndBody_AssertOperationSuccessful">postUserIdWithNonEmptyTitleAndBody_AssertOperationSuccessful</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="_01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class" class="method navigator-link" hash-for-method="getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds">getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">_02_com.masteringrestassured.api.tests.post._01_Post_Request_And_Assertion_To_Determine_If_Operation_Successful</span>
+              <span class="class-name">_01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="postUserIdWithNonEmptyTitleAndBody_AssertOperationSuccessful">
-                  </a> <!-- postUserIdWithNonEmptyTitleAndBody_AssertOperationSuccessful -->
-                  <span class="method-name">postUserIdWithNonEmptyTitleAndBody_AssertOperationSuccessful</span>
+                  <a name="getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds">
+                  </a> <!-- getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds -->
+                  <span class="method-name">getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/kd/stjr0h497jl0ldh5tft7b2pc0000gn/T/testng-eclipse-1228123616/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/kd/stjr0h497jl0ldh5tft7b2pc0000gn/T/testng-eclipse--281053079/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +146,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;_02_com.masteringrestassured.api.tests.post._01_Post_Request_And_Assertion_To_Determine_If_Operation_Successful&quot;/&gt;
+      &lt;class name=&quot;_01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'postUserIdWithNonEmptyTitleAndBody_AssertOperationSuccessful')
-data.setCell(0, 2, '_02_com.masteringrestassured.api.tests.post._01_Post_Request_And_Assertion_To_Determine_If_Operation_Successful')
-data.setCell(0, 3, 4456);
+data.setCell(0, 1, 'getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds')
+data.setCell(0, 2, '_01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class')
+data.setCell(0, 3, 1604);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,9 +221,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">_02_com.masteringrestassured.api.tests.post._01_Post_Request_And_Assertion_To_Determine_If_Operation_Successful</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">_01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">postUserIdWithNonEmptyTitleAndBody_AssertOperationSuccessful</span>
+                <span class="method-name">getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,4 +231,5 @@ return data;
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

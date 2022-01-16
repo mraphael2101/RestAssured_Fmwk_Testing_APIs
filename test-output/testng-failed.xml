@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_04_com.masteringrestassured.api.tests.authentication_and_authorization._02_Get_Request__Authorization_Success_200_Response_Code">
+      <class name="_01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class">
         <methods>
-          <include name="testUserNotExisting"/>
+          <include name="getUserIdAssociatedPosts_AndValidateNoRangeOfTheReturnedPostIds"/>
         </methods>
-      </class> <!-- _04_com.masteringrestassured.api.tests.authentication_and_authorization._02_Get_Request__Authorization_Success_200_Response_Code -->
+      </class> <!-- _01_com.masteringrestassured.api.tests.get._02_Get_Request_Extract_Node_Text_Using_JsonPath_Class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
